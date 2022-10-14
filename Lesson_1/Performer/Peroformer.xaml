@@ -90,7 +90,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="510,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Specify the folder where the file excel is located.&quot;]" />
-    <ui:SelectFile sap2010:Annotation.AnnotationText="Ищим excel файл" DisplayName="Browse for file" Filter="Файлы Excel|*.xlsx;*.xls;*.xlsm;*.xlsb" sap:VirtualizedContainerService.HintSize="510,168" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[out_excelFile]">
+    <ui:SelectFile sap2010:Annotation.AnnotationText="Ищeм excel файл" DisplayName="Browse for file" Filter="Файлы Excel|*.xlsx;*.xls;*.xlsm;*.xlsb" sap:VirtualizedContainerService.HintSize="510,168" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[out_excelFile]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
